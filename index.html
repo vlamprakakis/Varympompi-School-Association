@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Parents-Teacher Association</title>
+    <meta name="description" content="Official website of the School Parents-Teacher Association, connecting parents and teachers to support student success.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="School PTA Logo" onerror="this.src='https://via.placeholder.com/50x50?text=PTA'; this.onerror='';">
+                <div class="logo-text">School PTA</div>
+            </div>
+            
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
+                    <li class="nav-item"><a href="resources.html" class="nav-link">Resources</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <h1 class="hero-title">Welcome to Our School PTA</h1>
+            <p class="hero-subtitle">Connecting parents and teachers to create a supportive environment for our students to thrive and succeed.</p>
+            <div class="hero-buttons">
+                <a href="about.html" class="btn btn-outline">Learn More</a>
+                <a href="#upcoming-events" class="btn btn-accent">Upcoming Events</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section class="section features">
+        <div class="container">
+            <h2 class="section-title">What We Do</h2>
+            <div class="grid">
+                <div class="feature animate-on-scroll">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="feature-title">Build Community</h3>
+                    <p>We bring together parents, teachers, and school staff to create a strong, supportive community focused on student success.</p>
+                </div>
+                
+                <div class="feature animate-on-scroll">
+                    <div class="feature-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3 class="feature-title">Support Education</h3>
+                    <p>We provide resources, organize events, and fund programs that enhance the educational experience for all students.</p>
+                </div>
+                
+                <div class="feature animate-on-scroll">
+                    <div class="feature-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3 class="feature-title">Advocate for Students</h3>
+                    <p>We advocate for policies and practices that benefit our students and ensure their voices are heard.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Upcoming Events Section -->
+    <section id="upcoming-events" class="section">
+        <div class="container">
+            <h2 class="section-title">Upcoming Events</h2>
+            
+            <div class="event animate-on-scroll">
+                <div class="event-date">
+                    <div class="event-day">15</div>
+                    <div class="event-month">May</div>
+                </div>
+                <div class="event-content">
+                    <h3 class="event-title">Spring Fundraiser Gala</h3>
+                    <div class="event-meta">
+                        <i class="fas fa-clock"></i> 6:00 PM - 9:00 PM
+                        <i class="fas fa-map-marker-alt"></i> School Auditorium
+                    </div>
+                    <p>Join us for an evening of fun, food, and fundraising to support our school's arts program. Tickets available now!</p>
+                    <div class="event-countdown" data-date="2025-05-15T18:00:00"></div>
+                    <a href="events.html#spring-gala" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+            
+            <div class="event animate-on-scroll">
+                <div class="event-date">
+                    <div class="event-day">22</div>
+                    <div class="event-month">May</div>
+                </div>
+                <div class="event-content">
+                    <h3 class="event-title">Parent-Teacher Conference Day</h3>
+                    <div class="event-meta">
+                        <i class="fas fa-clock"></i> 1:00 PM - 7:00 PM
+                        <i class="fas fa-map-marker-alt"></i> School Classrooms
+                    </div>
+                    <p>Schedule a meeting with your child's teachers to discuss academic progress and goals for the remainder of the school year.</p>
+                    <div class="event-countdown" data-date="2025-05-22T13:00:00"></div>
+                    <a href="events.html#conferences" class="btn btn-primary">Schedule a Meeting</a>
+                </div>
+            </div>
+            
+            <div class="event animate-on-scroll">
+                <div class="event-date">
+                    <div class="event-day">5</div>
+                    <div class="event-month">Jun</div>
+                </div>
+                <div class="event-content">
+                    <h3 class="event-title">End of Year Picnic</h3>
+                    <div class="event-meta">
+                        <i class="fas fa-clock"></i> 11:00 AM - 3:00 PM
+                        <i class="fas fa-map-marker-alt"></i> School Playground
+                    </div>
+                    <p>Celebrate the end of the school year with food, games, and activities for the whole family. All are welcome!</p>
+                    <div class="event-countdown" data-date="2025-06-05T11:00:00"></div>
+                    <a href="events.html#year-end-picnic" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="events.html" class="btn btn-secondary">View All Events</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- News & Updates Section -->
+    <section class="section" style="background-color: var(--gray-100);">
+        <div class="container">
+            <h2 class="section-title">News & Updates</h2>
+            
+            <div class="grid">
+                <div class="card animate-on-scroll">
+                    <img src="https://via.placeholder.com/600x400?text=News+Image" alt="News Image" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">PTA Awarded Community Grant</h3>
+                        <p class="card-text">Our PTA has been awarded a $5,000 grant from the Community Foundation to support our STEM initiatives.</p>
+                        <a href="#" class="card-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="card animate-on-scroll">
+                    <img src="https://via.placeholder.com/600x400?text=News+Image" alt="News Image" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">New After-School Programs</h3>
+                        <p class="card-text">We're excited to announce new after-school programs starting next month, including coding, art, and chess.</p>
+                        <a href="#" class="card-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="card animate-on-scroll">
+                    <img src="https://via.placeholder.com/600x400?text=News+Image" alt="News Image" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Volunteer Opportunities</h3>
+                        <p class="card-text">Looking to get involved? Check out our current volunteer opportunities and make a difference in our school.</p>
+                        <a href="#" class="card-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">What Our Community Says</h2>
+            
+            <div class="grid">
+                <div class="card animate-on-scroll">
+                    <div class="card-content">
+                        <p class="card-text">"The PTA has been instrumental in creating a sense of community at our school. My children feel supported, and I've made wonderful connections with other parents."</p>
+                        <div class="testimonial-author">
+                            <strong>Sarah Johnson</strong>, Parent
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card animate-on-scroll">
+                    <div class="card-content">
+                        <p class="card-text">"As a teacher, I appreciate the PTA's support in providing resources and organizing events that enhance our students' learning experience."</p>
+                        <div class="testimonial-author">
+                            <strong>Mr. Rodriguez</strong>, 5th Grade Teacher
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card animate-on-scroll">
+                    <div class="card-content">
+                        <p class="card-text">"The PTA's fundraising efforts have allowed us to implement new technology in our classrooms, giving our students access to cutting-edge educational tools."</p>
+                        <div class="testimonial-author">
+                            <strong>Dr. Williams</strong>, Principal
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section" style="background-color: var(--gray-100);">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            
+            <div class="contact-form animate-on-scroll">
+                <form>
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-control" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>
+                <div class="footer-logo">School PTA</div>
+                <p>Connecting parents and teachers to support student success.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div>
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="index.html">Home</a></li>
+                    <li class="footer-link"><a href="about.html">About</a></li>
+                    <li class="footer-link"><a href="events.html">Events</a></li>
+                    <li class="footer-link"><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="footer-title">Contact Info</h3>
+                <ul class="footer-links">
+                    <li class="footer-link"><i class="fas fa-map-marker-alt"></i> 123 School Street, City, State 12345</li>
+                    <li class="footer-link"><i class="fas fa-phone"></i> (123) 456-7890</li>
+                    <li class="footer-link"><i class="fas fa-envelope"></i> info@schoolpta.org</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="copyright">
+                &copy; 2025 School Parents-Teacher Association. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
